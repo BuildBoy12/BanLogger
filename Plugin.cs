@@ -6,10 +6,10 @@ namespace BanLogger
 	public class Plugin : Plugin<Config>
 	{
 		public override string Name { get; } = "Ban Logger";
-		public override string Author { get; } = "Jesus-QC";
+		public override string Author { get; } = "By Jesus-QC, maintained by TheUltiOne";
 		public override string Prefix { get; } = "BanLogger";
-		public override Version Version { get; } = new Version(1, 0, 7);
-		public override Version RequiredExiledVersion { get; } = new Version(3, 0, 0);
+		public override Version Version { get; } = new Version(1, 0, 8);
+		public override Version RequiredExiledVersion { get; } = new Version(5, 0, 0);
 
 		public static Plugin Instance { get; private set; }
 		private EventHandlers _eventHandlers;
